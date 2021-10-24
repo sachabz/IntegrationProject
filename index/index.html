@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- FontAwesome Link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- CSS Links -->
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <!-- CSS Fonts Links -->
+        <link rel="stylesheet" type="text/css" href="../Fonts/fonts.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <title>My shop</title>
+
+    </head>
+
+    <body>
+
+    <!-- Navigation-->
+        <section class="container">
+            <h1 class="d-none">Navigation</h1>
+            <div class="row d-inline">
+                <div class="col-1 d-inline">
+                    <h2 class="d-none">Logo</h2>
+                    <img src="../assets/img/Logo.png" class="text-dark" alt="navbar">
+                </div>
+                <div class="col-sm-1 d-xl-none d-lg-none d-inline">
+                    <h2 class="d-none">Shopping Card</h2>
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-shopping-cart text-dark marginRightAuto"></i>
+                    </a>
+                </div>
+                <div class="col-lg-11 col-xl-11 col-md-11 col-sm-10 d-inline">
+                    <h2 class="d-none">Menu</h2>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <nav class="container-fluid">
+                            <button class="navbar-toggler marginLeftAuto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarColor03">
+                                <ul class="navbar-nav me-auto menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">SHOP</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">MAGAZINE</a>
+                                    </li>
+                                </ul>
+                                <div class="d-flex">
+                                    <ul class="navbar-nav me-auto menu">
+                                        <li class="nav-item d-none d-sm-block">
+                                            <a class="nav-link" href="#">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../login/login.php">LOGIN</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+    <!-- Search Bar Desktop-->
+        <section class="container d-none d-sm-block">
+            <div class="row">
+                <h2 class="d-none">Search Bar Desktop</h2>
+                <div class="col-1">
+                    <h2 class="d-none">Image Loupe</h2>
+                    <img src="../assets/img/Search.png" class="searchLoupe" alt="search">
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                    <h2 class="d-none text-black">Powered by</h2>
+                    <div class="input-group rounded">
+                        <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                               aria-describedby="search-addon" />
+                        <span class="input-group-text" id="search-addon">
+                            <span class="powered"> powered by <b>Algolia</b> </span>
+                               <img src="../assets/img/SajariLogo.png" class="searchimg" alt="search">
+                            </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3">
+                    <h2 class="d-none">Best Match</h2>
+                    <select class="form-select">
+                        <option  selected>Best match </option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+            <!-- Search Bar Mobile-->
+        <section class="container d-xl-none d-lg-none">
+            <h1 class="d-none">Search Bar Mobile</h1>
+            <div class="row">
+                <div class="col-1">
+                    <h2 class="d-none">Search loup mobile</h2>
+                    <img src="../assets/img/Search.png" class="searchLoupe" alt="search">
+                </div>
+                <div class="col-11">
+                    <h2 class="d-none">Search bar</h2>
+                    <div class="input-group rounded">
+                        <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                               aria-describedby="search-addon" />
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 d-flex flex-row-reverse">
+                        <h2 class="d-none">Powered</h2>
+                        <span class="input-group-text-mobile search-addon">
+                                <span class="powered text-black"> powered by <b>Algolia</b> </span>
+                                   <img src="../assets/img/SajariLogo.png" class="searchimg" alt="search">
+                                </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <select class="form-select">
+                            <option  selected>Best match </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Contenu-->
+        <section class="corpus">
+            <h1 class="d-none">Contenu</h1>
+            <section class="container">
+                <div class="row">
+                    <!-- Filter-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <h2 class="d-none">Filter</h2>
+                        <div class="filter">
+                            <span class="d-none d-sm-block typoFilter">Filter By</span>
+                            <select class="form-select d-xl-none d-lg-none" name="filterMobile" id="filterMobile">
+                                <option selected>Filters</option>
+                                <option value="1">Collection</option>
+                                <option value="2">Colors</option>
+                                <option value="3">Category</option>
+                            </select>
+                            <select class="form-select d-none d-sm-block" name="collection" id="collection">
+                                <option selected>Collection</option>
+                                <option value="1">New arrivals</option>
+                                <option value="2">Winter</option>
+                            </select>
+                            <select class="form-select d-none d-sm-block" name="color">
+                                <option selected>Color</option>
+                                    <option value="1">white</option>
+                                    <option value="2">blue</option>
+                            </select>
+                            <select class="form-select d-none d-sm-block" name="color">
+                                <option selected>Category</option>
+                                <option value="1">Lounge</option>
+                                <option value="2">Table & Chairs</option>
+                            </select>
+                        </div>
+                        <!-- PriceRange-->
+                        <section class="priceRange d-none d-sm-block">
+                            <h2 class="d-none">Price Range</h2>
+                            <h6 class="font-weight mb-3">Price Range</h6>
+                            <div class="slider-price d-flex align-items-center my-4">
+                                <span class="font-weight-normal small text-muted mr-2">$0</span>
+                                <form class="multi-range-field w-100 mb-1">
+                                    <input id="multi" class="multi-range" type="range" />
+                                </form>
+                                <span class="font-weight-normal small text-muted ml-2">$10,000+</span>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Product1-->
+                    <h2 class="d-none">Product1</h2>
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/1.jpg" class="card-img-top" alt="sofaGrey">
+
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Coombes</h3>
+                                        <span>LOUNGE</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$2,600</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product2-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <h2 class="d-none">Product2</h2>
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/2.jpg" class="card-img-top" alt="tableGrey">
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Keeve Set</h3>
+                                        <span>TABLE & CHAIRS</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$590</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product3-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <h2 class="d-none">Product3</h2>
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/3.jpg" class="card-img-top" alt="tableGrey">
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Nillè</h3>
+                                        <span>ARMCHAIR</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$950</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Filter-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/4.jpg" class="card-img-top" alt="tableBlancko">
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Blanko</h3>
+                                        <span>SIDE TABLE</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$90</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product5-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <h2 class="d-none">Product5</h2>
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/5.jpg" class="card-img-top" alt="shelveMomo">
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Momo</h3>
+                                        <span id="description">SHELVES</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$890</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product6-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <h2 class="d-none">Product6</h2>
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/6.jpg" class="card-img-top" alt="chair">
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Pennemillè</h3>
+                                        <span>CHAIR</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$120</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product7-->
+                    <div class="col-12 col-md-3 col-lg-3">
+                        <h2 class="d-none">Product7</h2>
+                        <div>
+                            <div class="picture">
+                                <img src="../assets/img/img_shop/7.jpg" class="card-img-top" alt="sofaGreen">
+                                <!-- Price container -->
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h3>Kappu</h3>
+                                        <span>SHELVES</span>
+                                        <!-- stars -->
+                                        <div class="rating">
+                                            <div class="stars">
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star gold"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; justify-content: space-between; flex-direction: column">
+                                        <div class="prix">$420</div>
+                                        <div class="card">
+                                            <a href="">
+                                                <i class="fa fa-cart-plus text-dark" style="font-size:28px;"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    <footer>
+        <!--Footer Desktop-->
+        <section class="container d-none d-sm-block">
+            <ul id="pagination">
+                <li><a class="actuel">1</a></li>
+                <li><a href=" ">2</a></li>
+                <li><a href=" ">3</a></li>
+                <li><a href=" ">4</a></li>
+                <li class="d-none d-sm-block"><a href=" ">5</a></li>
+                <li class="d-none d-sm-block"><a href=" ">6</a></li>
+                <li class="d-none d-sm-block"><a href=" ">7</a></li>
+                <li class="d-none d-sm-block"><a href=" ">8</a></li>
+                <li class="d-none d-sm-block"><a href=" ">9</a></li>
+                <li class="d-none d-sm-block"><a href=" ">10</a></li>
+                <li class="navigation"><a href="page3.html"> > </a></li>
+            </ul>
+        </section>
+        <!--FooterMobile-->
+        <section class="container d-xl-none d-lg-none">
+            <ul id="pagination" class="returnLeft">
+                <li><a class="actuel">1</a></li>
+                <li><a href=" ">2</a></li>
+                <li><a href=" ">3</a></li>
+                <li><a href=" ">4</a></li>
+                <li class="d-none d-sm-block"><a href=" ">5</a></li>
+                <li class="d-none d-sm-block"><a href=" ">6</a></li>
+                <li class="d-none d-sm-block"><a href=" ">7</a></li>
+                <li class="d-none d-sm-block"><a href=" ">8</a></li>
+                <li class="d-none d-sm-block"><a href=" ">9</a></li>
+                <li class="d-none d-sm-block"><a href=" ">10</a></li>
+                <li class="navigation"><a href="page3.html"> > </a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous">
+    </script>
+    </body>
+</html>

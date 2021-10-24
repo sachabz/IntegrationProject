@@ -1,0 +1,92 @@
+body {
+    position: relative;
+
+}
+
+footer {
+    position: absolute; bottom: 1;
+    padding-left: 12.5rem;
+}
+
+h3 {
+    font-size: 0.9375rem;
+    margin: 0.625rem 0px 0.625rem 0px;
+}
+
+span {
+    font-size: 12px;
+    color: #9a9a9c;
+}
+
+.prix {
+    font-size: 15px;
+    margin: 0.625rem 0px 3.125rem 0px;
+}
+
+.filter {
+    border: none;
+    border-bottom: 1px solid #9a9a9c;
+
+}
+
+.card {
+    border: none;
+    margin-top: -1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.typoFilter {
+    font-size: 0.9375rem;
+    margin: 0.625rem 0px 0.625rem 0px;
+}
+
+.form-select {
+    border: none;
+    border-bottom: 1px solid #9a9a9c;
+}
+
+.menu a{
+    color: #000000;
+    font-weight: bold;
+}
+
+.corpus {
+    margin-top: 4.6875rem;
+}
+
+.bestMatch {
+    border: none;
+    border-bottom: 1px solid #9a9a9c;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #9a9a9c;
+}
+
+.input-group-text {
+    border: none;
+    border-bottom: 1px solid #9a9a9c;
+    background-color: white;
+}
+
+.powered {
+    margin-right: 1rem;
+}
+
+.input-group-text-mobile {
+    margin-bottom: 1rem;
+}
+
+.searchLoupe {
+    width: 15px;
+}
+
+.marginLeftAuto {
+    margin-left: auto;
+}
+
