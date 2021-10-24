@@ -31,18 +31,18 @@
     <!-- Navigation-->
         <section class="container">
             <h1 class="d-none">Navigation</h1>
-            <div class="row d-inline">
-                <div class="col-1 d-inline">
+            <div class="row">
+                <div class="col-1">
                     <h2 class="d-none">Logo</h2>
                     <img src="../assets/img/Logo.png" class="text-dark" alt="navbar">
                 </div>
-                <div class="col-sm-1 d-xl-none d-lg-none d-inline">
+                <div class="col-sm-10 d-xl-none d-lg-none d-md-none d-inline">
                     <h2 class="d-none">Shopping Card</h2>
                     <a class="nav-link" href="#">
                         <i class="fa fa-shopping-cart text-dark marginRightAuto"></i>
                     </a>
                 </div>
-                <div class="col-lg-11 col-xl-11 col-md-11 col-sm-10 d-inline">
+                <div class="col-lg-11 col-xl-11 col-md-11 col-sm-2">
                     <h2 class="d-none">Menu</h2>
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <nav class="container-fluid">
@@ -53,13 +53,13 @@
                             <div class="collapse navbar-collapse" id="navbarColor03">
                                 <ul class="navbar-nav me-auto menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">HOME</a>
+                                        <a class="nav-link text-black" href="#">HOME</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">SHOP</a>
+                                        <a class="nav-link text-black" href="#">SHOP</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">MAGAZINE</a>
+                                        <a class="nav-link text-black" href="#">MAGAZINE</a>
                                     </li>
                                 </ul>
                                 <div class="d-flex">
@@ -70,7 +70,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="../login/login.php">LOGIN</a>
+                                            <a class="nav-link text-black" href="../login/login.php">LOGIN</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -95,14 +95,14 @@
                         <input type="search" class="form-control" placeholder="Search" aria-label="Search"
                                aria-describedby="search-addon" />
                         <span class="input-group-text" id="search-addon">
-                            <span class="powered"> powered by <b>Algolia</b> </span>
+                            <span class="powered text-black"> powered by <b>Algolia</b> </span>
                                <img src="../assets/img/SajariLogo.png" class="searchimg" alt="search">
                             </span>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3">
                     <h2 class="d-none">Best Match</h2>
-                    <select class="form-select">
+                    <select class="form-select text-black">
                         <option  selected>Best match </option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
@@ -112,7 +112,7 @@
             </div>
         </section>
             <!-- Search Bar Mobile-->
-        <section class="container d-xl-none d-lg-none">
+        <section class="container d-xl-none d-lg-none d-sm-none">
             <h1 class="d-none">Search Bar Mobile</h1>
             <div class="row">
                 <div class="col-1">
@@ -129,7 +129,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-12 d-flex flex-row-reverse">
-                        <h2 class="d-none">Powered</h2>
+                        <h2 class="d-none text-black">Powered</h2>
                         <span class="input-group-text-mobile search-addon">
                                 <span class="powered text-black"> powered by <b>Algolia</b> </span>
                                    <img src="../assets/img/SajariLogo.png" class="searchimg" alt="search">
@@ -138,7 +138,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-3 col-lg-3">
-                        <select class="form-select">
+                        <select class="form-select text-black">
                             <option  selected>Best match </option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
@@ -157,33 +157,33 @@
                     <div class="col-12 col-md-3 col-lg-3">
                         <h2 class="d-none">Filter</h2>
                         <div class="filter">
-                            <span class="d-none d-sm-block typoFilter">Filter By</span>
-                            <select class="form-select d-xl-none d-lg-none" name="filterMobile" id="filterMobile">
+                            <span class="d-none d-sm-block typoFilter">FILTER BY</span>
+                            <select class="form-select d-xl-none d-lg-none filterMobile" name="filterMobile" id="filterMobile">
                                 <option selected>Filters</option>
                                 <option value="1">Collection</option>
                                 <option value="2">Colors</option>
                                 <option value="3">Category</option>
                             </select>
-                            <select class="form-select d-none d-sm-block" name="collection" id="collection">
+                            <select class="form-select d-none d-sm-block filterBox" name="collection" id="collection">
                                 <option selected>Collection</option>
                                 <option value="1">New arrivals</option>
                                 <option value="2">Winter</option>
                             </select>
-                            <select class="form-select d-none d-sm-block" name="color">
+                            <select class="form-select d-none d-sm-block filterBox" name="color">
                                 <option selected>Color</option>
                                     <option value="1">white</option>
                                     <option value="2">blue</option>
                             </select>
-                            <select class="form-select d-none d-sm-block" name="color">
+                            <select class="form-select d-none d-sm-block filterBox" name="color">
                                 <option selected>Category</option>
                                 <option value="1">Lounge</option>
                                 <option value="2">Table & Chairs</option>
                             </select>
                         </div>
-                        <!-- PriceRange-->
+                        <!-- PriceRangeKO-->
                         <section class="priceRange d-none d-sm-block">
                             <h2 class="d-none">Price Range</h2>
-                            <h6 class="font-weight mb-3">Price Range</h6>
+                            <h6 class="font-weight-normal text-black">Price Range</h6>
                             <div class="slider-price d-flex align-items-center my-4">
                                 <span class="font-weight-normal small text-muted mr-2">$0</span>
                                 <form class="multi-range-field w-100 mb-1">
@@ -440,7 +440,7 @@
         </section>
     <footer>
         <!--Footer Desktop-->
-        <section class="container d-none d-sm-block">
+        <section class="container d-none d-sm-block footerDesktop">
             <ul id="pagination">
                 <li><a class="actuel">1</a></li>
                 <li><a href=" ">2</a></li>
@@ -456,8 +456,8 @@
             </ul>
         </section>
         <!--FooterMobile-->
-        <section class="container d-xl-none d-lg-none">
-            <ul id="pagination" class="returnLeft">
+        <section class="container d-md-none d-xl-none d-lg-none footerMobile">
+            <ul id="pagination">
                 <li><a class="actuel">1</a></li>
                 <li><a href=" ">2</a></li>
                 <li><a href=" ">3</a></li>
@@ -468,7 +468,7 @@
                 <li class="d-none d-sm-block"><a href=" ">8</a></li>
                 <li class="d-none d-sm-block"><a href=" ">9</a></li>
                 <li class="d-none d-sm-block"><a href=" ">10</a></li>
-                <li class="navigation"><a href="page3.html"> > </a></li>
+                <li class="navigationMobile"><a href="page3.html"> > </a></li>
             </ul>
         </section>
     </footer>

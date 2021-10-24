@@ -1,13 +1,3 @@
-body {
-    position: relative;
-
-}
-
-footer {
-    position: absolute; bottom: 1;
-    padding-left: 12.5rem;
-}
-
 h3 {
     font-size: 0.9375rem;
     margin: 0.625rem 0px 0.625rem 0px;
@@ -17,76 +7,89 @@ span {
     font-size: 12px;
     color: #9a9a9c;
 }
-
-.prix {
-    font-size: 15px;
-    margin: 0.625rem 0px 3.125rem 0px;
-}
-
-.filter {
-    border: none;
-    border-bottom: 1px solid #9a9a9c;
-
-}
-
-.card {
-    border: none;
-    margin-top: -1.875rem;
-    margin-bottom: 1.875rem;
-}
-
-.typoFilter {
-    font-size: 0.9375rem;
-    margin: 0.625rem 0px 0.625rem 0px;
-}
-
-.form-select {
-    border: none;
-    border-bottom: 1px solid #9a9a9c;
-}
-
-.menu a{
-    color: #000000;
-    font-weight: bold;
-}
-
-.corpus {
-    margin-top: 4.6875rem;
-}
-
-.bestMatch {
-    border: none;
-    border-bottom: 1px solid #9a9a9c;
-}
-
 section {
     overflow-x: hidden;
 }
 
+/*--------------------------HEAD--------------------------*/
+/*----NavBar----*/
+.menu a{
+    color: #000000;
+    font-weight: bold;
+}
+.marginLeftAuto {
+    margin-left: auto;
+}
+/*----SearchBar----*/
 .form-control {
     border: none;
     border-bottom: 1px solid #9a9a9c;
 }
-
+.powered {
+    margin-right: 1rem;
+}
+.searchLoupe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+}
+.input-group-text-mobile {
+    margin-bottom: 1rem;
+}
 .input-group-text {
     border: none;
     border-bottom: 1px solid #9a9a9c;
     background-color: white;
 }
-
-.powered {
-    margin-right: 1rem;
+/*----Filters----*/
+.form-select {
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+}
+.typoFilter {
+    font-size: 0.9375rem;
+    margin: 10px 0px 10px 0px;
+}
+.filterBox {
+    margin-top: 35px;
 }
 
-.input-group-text-mobile {
-    margin-bottom: 1rem;
+.filterMobile {
+    margin-bottom: 40px;
+}
+/*----PriceRange--*/
+.priceRange{
+    margin-top: 40px;
+}
+.multi-range {
+    color: black;
 }
 
-.searchLoupe {
-    width: 15px;
+/*----BestMatch--*/
+.bestMatch {
+    border: none;
+    border-bottom: 1px solid #9a9a9c;
 }
 
-.marginLeftAuto {
-    margin-left: auto;
+/*--------------------------BODY--------------------------*/
+.corpus {
+    margin-top: 4.6875rem;
+}
+body {
+    position: relative;
+}
+/*----Products--*/
+.prix {
+    font-size: 15px;
+    margin: 0.625rem 0px 3.125rem 0px;
+}
+.card {
+    border: none;
+    margin-top: -1.875rem;
+    margin-bottom: 1.875rem;
 }
 
